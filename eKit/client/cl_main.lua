@@ -57,12 +57,6 @@ function OpenMenu()
     end
 end
 
-
-RegisterCommand("kit", function()
-	OpenMenu() 
-end)
-
-
 RegisterNetEvent("eKit:good")
 AddEventHandler("eKit:good", function()
 
